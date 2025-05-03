@@ -25,16 +25,16 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light">
-          {/* <SidebarProvider> */}
-            {/* <div className="flex min-h-screen">
+          <SidebarProvider>
+            <div className="flex min-h-screen">
               <AppSidebar />
               <div className="flex flex-col flex-1">
-                <TopNav /> */}
+                <TopNav />
                 <main className="flex-1 overflow-x-hidden">{children}</main>
-              {/* </div>
-            </div> */}
-            {/* <Toaster />
-          </SidebarProvider> */}
+              </div>
+            </div>
+            <Toaster />
+          </SidebarProvider>
         </ThemeProvider>
       </body>
     </html>

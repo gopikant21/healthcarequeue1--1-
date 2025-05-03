@@ -49,7 +49,7 @@ export function AppSidebar() {
   const mainNavItems = [
     {
       title: "Dashboard",
-      href: "/dashboard",
+      href: "/",
       icon: Home,
     },
     {

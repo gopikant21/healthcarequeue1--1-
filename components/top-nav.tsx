@@ -84,6 +84,7 @@ export function TopNav() {
           <span className="text-lg font-semibold text-primary whitespace-nowrap">
             North Road Pharmacy
           </span>
+          <div className="w-20"></div>
           {/* <Badge variant="outline" className="text-xs">
             Scotland, UK
           </Badge> */}
